@@ -10,17 +10,19 @@ Appium Automation project to run native android using cucumber with page object 
 - Appium
 
 ## Supports
+
 - Native Android
 - Supports Page Object Model
 - Contains test scenarios in cucumber
 - Supports multiple cucumber html reports
 
-## Running sample test
+## How to run test
+
 Follow the below commands -
-- Clone the project - ``.
+- Clone the project - `git@github.com:icearun1/appium-wdiov6-cucumber-automation.git`.
 
 - Install dependencies using `npm i` in the terminal.
 
-- Update the deviceName and platFormVersion in `config/android.info.js` and `config/ios.info.js` respectively.
+- Update the deviceName and platFormVersion in `config/android.info.js` .
 
 - Execute `npm run android` to run android native app
