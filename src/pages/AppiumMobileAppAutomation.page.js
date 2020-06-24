@@ -82,6 +82,7 @@ class AppiumMobileAppAutomation {
         ActionHelper.sendText(this.getObjectLocator().postcode, 'postal')
         ActionHelper.click(this.getObjectLocator().addressSaveButton)
         this.invalidMessagePopup()
+        ActionHelper.click(this.getObjectLocator().addressSaveButton)
     }
 
     invalidMessagePopup() {

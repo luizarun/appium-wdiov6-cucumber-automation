@@ -1,7 +1,7 @@
 {
-  "name": "WebdriverIO6-appium-cucumber-boilerplate",
+  "name": "Appium-Cucumber-NativeApp-Automation",
   "version": "1.0.0",
-  "description": "Boilerplate project to run native and browser for android and ios using cucumber with page object pattern",
+  "description": "Appium Automation project to run native android using cucumber.",
   "scripts": {
     "android": "wdio ./config/android.config.js",
     "ios": "wdio ./config/ios.config.js",
